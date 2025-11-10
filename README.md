@@ -26,35 +26,33 @@ A simple Django-based CRUD app for managing patient records.
 
 healthcareproject/
 │
-├── crudapp/                     # Main Django app
-│   ├── migrations/              # Database migration files
-│   ├── templates/               # HTML templates
+├── crudapp/                     
+│   ├── migrations/              
+│   ├── templates/              
 │   │   ├── add_patient.html
 │   │   ├── edit_patient.html
 │   │   ├── patient_list.html
 │   │   └── login.html
-│   ├── static/                  # CSS
-│   │   └── style.css
-│   │  
-│   │   
-│   │   
-│   ├── forms.py                 # Django forms
-│   ├── models.py                # Database models
-│   ├── urls.py                  # App-level URL routing
-│   ├── views.py                 # View logic
-│   └── admin.py                 # Admin site setup
+│   │   └── registration.html
+│   ├── static/                 
+│   │   └── style.css 
+│   ├── forms.py
+│   ├── models.py                
+│   ├── urls.py                  
+│   ├── views.py                 
+│   └── admin.py                 
 │
-├── healthcareproject/           # Project configuration folder
+├── healthcareproject/          
 │   ├── __init__.py
 │   ├── asgi.py
-│   ├── settings.py              # Main settings file
-│   ├── urls.py                  # Root URL routing
+│   ├── settings.py              
+│   ├── urls.py                  
 │   └── wsgi.py
 │
-├── db.sqlite3                   # SQLite database file
-├── manage.py                    # Django management script
-├── requirements.txt             # List of dependencies
-├── symptom_suggestions.csv      # Extra data file
+├── db.sqlite3                  
+├── manage.py                   
+├── requirements.txt             
+├── symptom_suggestions.csv      
 
 
 
