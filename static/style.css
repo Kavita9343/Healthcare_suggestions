@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f8ff;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding: 5px;
+}
+.add_patient{
+    margin-left: 700px;
+}
+.logout{
+    color: red;
+    font-weight: lighter;
+}
+.logout:hover{
+    color: red;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 1px;
+    margin-left: 2px;
+    
+}
+.back{
+    margin-left: 70px;
+    margin-top: 3px;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Form box */
+.form-container {
+    width: 600px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    margin-left: 70px;
+    margin-top: 5px;
+    margin-right: -70px;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #3f3e3e;
+}
+
+.form-group input {
+    width: 600pxpx;
+   
+    height: 50px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 1em;
+    color: #746f6f;
+    
+}
+
+
+
+input[type=text],input[type=number] {
+    width: 70%;
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+}
+
+button {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    background: #007bff;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 70px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Table */
+table {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: #007bff;
+    color: white;
+}
+
+td {
+    background: white;
+}

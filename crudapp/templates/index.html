@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    
+    <div style="text-align: center; margin-bottom: 15px;">
+        <h2>Health Suggestion System</h2> 
+        <a href="{% url 'add' %}" target="_self" class="add_patient">Add Patient</a> |
+        <a href="{% url 'logout' %}" target="_self" class="logout">Logout</a>
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Symptoms</th>
+                <th>Suggestion</th>
+                <th>Actions</th>
+            </tr>
+            
+            {% for p in patients %}
+            <tr>
+                <td>{{ p.name }}</td>
+                <td>{{ p.age }}</td>
+                <td>{{ p.symptoms }}</td>
+                <td>{{ p.suggestion }}</td>
+                <td>
+                    <a href="{% url 'edit' p.id %}">Update</a> |
+                    <a href="{% url 'delete' p.id %}">Delete</a>
+                </td>
+            </tr>
+            {% endfor %}
+            </table>
+    </div>
+
+
+
+</body>
+</html>
