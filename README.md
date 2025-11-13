@@ -4,10 +4,8 @@ A simple Django-based CRUD app for managing patient records.
 
 ## 🩺 Project Overview
 
-The **Healthcare Management System** is a Django-based CRUD (Create, Read, Update, Delete) web application designed to simplify the process of managing patient information.  
-It allows healthcare staff to easily record, update, and view patient details such as name, age, and symptoms — all through a user-friendly interface.
-
-This project demonstrates the use of Django’s powerful Model-View-Template (MVT) architecture, form handling, and authentication system to build a complete full-stack web solution.
+The Healthcare Management System is a Django-based CRUD (Create, Read, Update, Delete) web application designed to get some suggestions for common health issues.
+It allows user to easily enter required credentials such as name, age, and symptoms — all through a user-friendly interface. On the bases of symptom it will provide some suggestions.
 
 ---
 
