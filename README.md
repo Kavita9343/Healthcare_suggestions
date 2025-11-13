@@ -30,13 +30,7 @@ This project demonstrates the use of Django’s powerful Model-View-Template (MV
 
 ---
 
-## 📸 Screenshots
 
-[Home Page]<img width="1270" height="420" alt="homepage" src="https://github.com/user-attachments/assets/856da1f2-0ec3-4356-ad66-d5d6786477bf" />
-[Update Patient details page]<img width="1241" height="550" alt="updatepage" src="https://github.com/user-attachments/assets/b3462326-16e8-49d3-ae8d-1efc002da0f7" />
-[Add patient details page]<img width="1194" height="521" alt="addpage" src="https://github.com/user-attachments/assets/87f3605c-dff8-44a2-b77d-f8607fef3940" />
-
----
 
 ## 🗂️ Project Structure
 
